@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color:  rgb(236, 225, 225);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/*HEADER*/
+
+header{
+    background-color: rgb(236, 225, 225);
+    width: 100%;
+    min-height: 75px;
+    padding: 0px 20px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#nav-bar ul li {
+    display: inline-block;
+    margin: 45px 40px 20px;
+    
+}
+
+.nav-link  {
+    color: #252a34;
+}
+
+.nav-link:hover {
+    color: #5454a1;
+}
+
+/*Mid container*/
+
+#features {
+    margin-top: 12rem;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-container {
+    display: flex;
+    padding: 20px;
+}
+
+.features-container img {
+    width: 60px;
+    margin-right: 50px;
+}
+
+/*video*/
+
+#how-work{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+/*price*/
+
+#price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 4rem;
+}
+
+.items{
+    width: 250px;
+    height: 280px;
+    text-align: center;
+    border: 1px solid black ;
+    margin: 20px;
+
+}
+
+
+.items h1{
+
+    font-size: max(1.2rem, 1vw);
+    background-color: rgb(173, 170, 166);
+    padding: 10px;
+}
+
+.prices {
+   margin: 1rem 0;
+}
+
+ol li {
+    padding: 3px;
+}
+
+.btn {
+    background-color: rgb(243, 220, 88);
+    margin-top: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 0;
+
+    font-weight: bold;
+}
+
+/*form*/
+
+#form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#form label {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#form input {
+    width: 200px;
+}
